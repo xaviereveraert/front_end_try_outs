@@ -1,0 +1,23 @@
+.avatar{
+  width: 40px;
+  border-radius: 50%;
+}
+
+.avatar_large {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.avatar_very_large {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile {
+  height: 65vh;
+  width: 25%;
+  border-radius: 0%;
+  object-fit: cover;
+}

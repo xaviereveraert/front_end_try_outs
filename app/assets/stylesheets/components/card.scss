@@ -1,0 +1,79 @@
+.CV-card {
+    border: 8px;
+    border-radius: 8px;
+    border-color: white;
+    padding: 16px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: 10px auto;
+}
+
+
+.shadowed {
+box-shadow: 10px 10px 3px black;
+}
+
+
+
+.card-category {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  color: white;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.card-product {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+}
+
+.card-product img {
+  height: 150px;
+  margin-right: 16px;
+}
+
+.card-product h2 {
+  margin: 0;
+}
+
+.card-product p {
+  margin: 0;
+}
+
+
+
+.card-trip {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.card-trip-footer {
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+margin: 16px;
+}
+
+.card-trip h2 {
+color: black;
+}
+
+.card-trip p {
+color: black;
+}
+
+.card-trip img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}

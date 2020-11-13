@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
 # verb 'path', to: 'controller#action'
 
-get 'contact', to: 'pages#contact'
+get 'xavier', to: 'pages#xavier'
+get 'components_test_page', to: 'pages#components_test_page'
 
 end
